@@ -1,10 +1,14 @@
 package com.manytomany.model;
 
-public enum field {
-    ORTHOPEDICIAN,
+public enum Speciality {
+	ORTHOPEDICIAN,
     CARDIOLOGIST,
     DERMATOLOGIST,
     NEUROLOGIST,
     PEDIATRICIAN
-    // Add more as needed
+   
+
+	
+	
+	
 }

@@ -1,4 +1,4 @@
-package com.manytomany.Exceptions;
+package com.manytomany.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException{
 	 

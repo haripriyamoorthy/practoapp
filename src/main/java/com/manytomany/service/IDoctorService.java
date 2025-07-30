@@ -10,7 +10,16 @@ public interface IDoctorService {
    
     List<DoctorDto> getAllDoctors();
 
-    DoctorDto assignSpecialization(Long doctorId, Long specializationId);
-
+   
 	void addDoctor(DoctorDto doctorDto);
+	
+
+
+	List<DoctorDto> findByname(String name);
+
+
+	List<DoctorDto> getDoctorById(Integer doctorId);
+	
+
+	
 }
